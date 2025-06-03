@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: red;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.titulo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 400px;
+    height: 4px;
+    display: flex;
+    align-items: end;
+    text-align: center;
+     
+    
+      
+}
+
+.titulo1{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+justify-content: space-evenly;
+text-align: center;
+align-items: center;
+background-color: rgb(68, 0, 255);
+width: 50%;
+height: 70%;
+font-size: 20px;
+color: white;
+border-radius: 10px;
+box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+border-radius: 8px;
+margin: 0 auto;
+}
+
+
+.nome input{
+    display: flex;
+    width: 300px;
+    height: 70%;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8); 
+    border-radius: 8px; 
+    font-size: 15px;
+    margin: 6px auto;
+}
+
+.calcular{
+    cursor: pointer;
+    display: flex;
+    background: blue;
+    width: 50%;
+    height: 30px;
+    transition: all 0.3s ease;
+    font-size: bold;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 30px;
+
+}
+
+.resultado{
+    display: flex;
+    background: blue;
+    width: 300px;
+    height: 80px;
+    transition: all 0.3s ease;
+    font-size: bold;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+}
+
+.apagar{
+    cursor: pointer;
+    display: flex;
+    background: blue;
+    width: 150px;
+    height: 30px;
+    transition: all 0.3s ease;
+    font-size: bold;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 30px;
+}
